@@ -5,10 +5,10 @@
        		<div class="col-md-12 col-top-bar">
            		<div class="top-bar">
                 	<h1 class="top-bar-text"> Dich vu du lich gia tot, dich vu lam visa nhanh chong, dat ve may bay gia re, du hoc. Hotline 24/7 : <span><i class="glyphicon glyphicon-phone"></i>&nbsp;0987647504</span>
-                		<select class="pull-right language" onchange="window.location = this.value">
-                			<option <?php if(isset($_GET['lang']) && $_GET['lang'] == 'vi') echo 'selected' ?> value="index.php?controller=language&amp;lang=vi">Vietnamese</option>
-                			<option <?php if(isset($_GET['lang']) && $_GET['lang'] == 'en') echo 'selected' ?> value="index.php?controller=language&amp;lang=en">English</option>
-                		</select>
+                		<div class="pull-right language">
+                			<a href="index.php?controller=language&amp;lang=vi"><img src="asset/image/flags/vietnam.png" width="25" alt="Viet Nam"></a>
+                			<a href="index.php?controller=language&amp;lang=en"><img src="asset/image/flags/en.png" width="25" alt="English"></a>
+                		</div>
                 	</h1>
                </div>
             </div>

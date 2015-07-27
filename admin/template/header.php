@@ -68,10 +68,10 @@
                     </ul>
                 </li>
             </ul>
-            <select class="pull-right language" onchange="window.location = this.value">
-                    <option <?php if(isset($_GET['lang']) && $_GET['lang'] == 'vi') echo 'selected' ?> value="index.php?controller=language&amp;lang=vi">Vietnamese</option>
-                    <option <?php if(isset($_GET['lang']) && $_GET['lang'] == 'en') echo 'selected' ?> value="index.php?controller=language&amp;lang=en">English</option>
-                </select>
+          <div class="pull-right language">
+                    <a href="index.php?controller=language&amp;lang=vi"><img src="asset/img/flags/vietnam.png" width="25" alt="Viet Nam"></a>
+                    <a href="index.php?controller=language&amp;lang=en"><img src="asset/img/flags/en.png" width="25" alt="English"></a>
+            </div>
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
